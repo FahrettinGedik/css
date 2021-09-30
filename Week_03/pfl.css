@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+p {
+	font-family: 'Ephesis', cursive;
+	font-size: 50px;
+	column-count: 3;
+	column-gap: 10;
+	column-rule: solid blue;
+}
+
+p::first-letter {
+	color: red;
+}
+
+p::marker {
+	background-color: salmon;
+	font-size: 30px;
+}
+
+img {
+	height: 200;
+	filter: hue-rotate(20deg) sepia(100%) blur();
+}
+
+li::marker {
+	color: red;
+	font-size: 20px;
+}
+
+li::after {
+	content: "---Remember this";
+}
+
+div {
+
+	background-image: linear-gradient()red yellow;
+}
+
+div {
+	background-image: radial-gradient(ellipse, red yellow);
+
+}
+
+button {
+	background-color: cornflowerblue;
+	color: white;
+	border: none;
+	padding: 12px 24px;
+	font: size 24px;
+	;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+i {
+	margin: 10px;
+}
+
+body {
+	background: #607d8b2b;
+	font-family: "Times";
+	font-size: 150%;
+}
+
+.nav {
+	font-family: cursive;
+}
+
+nav a {
+	margin-right: 30px;
+	color: rgb(201, 35, 35);
+	font-size: 12px;
+}
+
+.nav a:hover {
+	background-color: rgb(17, 183, 224);
+	transition: 300ms all;
+}
+
+.main p {
+	color: rgb(201, 35, 35);
+	font-size: 14px;
+}
+
+#isim {
+	text: shadow 100px;
+	blue;
+	background-color: cyan;
+
+}
+
+#sade {
+	text-emphasis: none;
+	background-color: cadetblue;
+}
+
+#buyuk {
+	text-transform: uppercase;
+}
+
+#nane {
+	background-color: lavender;
+}
+
+nav,
+header,
+main,
+footer {
+	border: 2px dashed darkblue;
+	padding: 5px;
+}
+
+nav,
+footer {
+	background-color: lightgrey;
+}
+
+nav li {
+	display: inline-block;
+	text-decoration: none;
+	width: 25%;
+	padding: 20px 0;
+	margin: 15px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+h1,
+h2 {
+	font-family: courier;
+}
+
+h2 {
+	background: darkblue;
+	color: white;
+}
+
+table,
+td {
+	border: 1px solid black;
+	margin: 0;
+}
+
+footer a {
+	margin-left: 20%;
+}
