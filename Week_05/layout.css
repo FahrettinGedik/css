@@ -1,0 +1,37 @@
+/*Layout*/
+main{
+    width:  100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+}
+ul li{
+    flex-grow: 1;
+}
+
+section.calculator-base{
+    height: 70vh;
+    display: flex;
+    /*position: relative;*/
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+}
+
+section.product-info{
+    flex-grow: 1;
+}
