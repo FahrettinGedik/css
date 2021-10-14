@@ -1,0 +1,140 @@
+/*General */
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/*Color */
+html, main{
+    background-color: #F7F3D7;
+    border: #EcA03D;
+}
+.one{
+    background-color: #62306D;
+}
+.one div{
+    background-color: #F7EC7D;
+}
+.two{
+    background-color: #E3516E;
+}
+.three{
+    background-color: #191210;
+}
+/*Layout*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 30vh;
+    border: 1px solid;
+}    
+.shape{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    width: 32vw;
+    height: 25vh;
+}
+div{
+    width: 10vw;
+    height: 10vh;
+}
+.one{
+    padding-left: 3%;
+     
+}
+.one>:first-child, .one>:last-child{
+    align-self: flex-end;
+    margin-bottom: 2.5vh;
+    border-radius:0 0 70% 70% ;
+}
+.one>:nth-child(2){
+    align-self: flex-start;
+    margin-top: 2.5vh;
+    border-radius:70% 70% 0 0 ;
+}
+.two{
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap row;
+}
+.two-column{
+        position: absolute;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        width: 10vw;
+        border-radius: 50%;
+        border-radius: 1 solid blue;
+}
+.top-left{
+    background-color:#51B5B9 ;
+    left:40vw;
+    top: 5vh;
+    border-radius: 100% 0 0 0;
+}
+.top-right{
+    background-color:#FADE8B ;
+    left:50vw;
+    top: 5vh;
+    border-radius: 0 100% 0 0;
+}
+.bottom-left{
+    background-color:#F7F3D7 ;
+    left:40vw;
+    top: 15vh;
+    border-radius: 0 0 0 100% ;
+}
+.three{
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap row;
+}
+.three-circle{
+    position: absolute;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 15vw;
+ }
+.circle-left{
+    left:71.89vw;
+    top: 17vh;
+    width:4vw;
+    height:4vh;
+    border:20px solid #ECA03D;
+    border-top:none;
+    border-radius:0 0 100% 100% / 0 0 170% 170%;
+}
+.circle-between{
+    left:78vw;
+    top: 4vh;
+    width:10vw;
+    height:16vh;
+    border:20px solid #ECA03D;
+    border-radius:100%;
+}
+.circle-right{
+    left: 90.29vw;
+    top: 9.4vh;
+    width:4vw;
+    height:4vh;
+    border:20px solid #ECA03D;
+    border-bottom:none;
+    border-radius:100% 100% 0 0 / 170% 170% 0 0;
+}
+.circle-in{
+    left:83vw;
+    top: 11vh;
+    width:5vw;
+    height:8vh;
+    border-radius:100%;
+    background-color: #84271C;
+}
