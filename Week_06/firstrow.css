@@ -1,0 +1,66 @@
+.first-row{
+    display: flex;
+    margin: 40px 10px 10px 20px;
+}
+.alfa{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 40%;
+    background-color: white;  
+}
+.alfa1{
+    background-color:#6ebdf1;
+    margin: 0px auto 20px auto;
+    border-radius: 3px;
+    height: 22px;
+    width: 80%;
+    margin-top: 20px;
+}
+.alfa2{
+    background-color: #6ebdf1;
+    margin: 0px auto 20px auto;
+    border-radius: 3px;
+    height: 17px;
+    width: 80%;    
+}
+.alfa3{
+    background-color: #6ebdf1;
+    margin: 0px auto 20px auto;
+    border-radius: 3px;
+    height: 30px;
+    width: 20%;
+}
+.play{
+    display: flex;
+    background-color: white;
+    margin: 40px 20px 20px 20px; 
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 0%; 
+}
+.play1{
+    background-color: #6ebdf1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.play2{
+    background-color: white;
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 40px;
+    height: 24px;
+    transform: rotate(90deg);
+}
+.escalier{
+    width: 20%;
+    height: 230px;
+    background-color: white;
+    width: 700%;
+    height: 20px;
+    margin: 5px auto 10px auto;
+    border-radius: 3px;
+    margin: 20px 20px 20px 20px;
+}

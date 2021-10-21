@@ -1,0 +1,28 @@
+/*third-row*/
+.f1{
+    width: 739px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 10px 20px 13px;
+    border-radius: 3px;
+}
+.f11{
+    width: 75%;
+    height: 80%;
+    background-color: #6ebdf1;
+    margin: 4px;
+    border-radius: 3px;
+}
+.icon{
+    width: 340px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.fab{
+    font-weight: 400;
+    font-size: 42px;
+    color: white;
+}

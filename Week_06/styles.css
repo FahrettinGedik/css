@@ -1,0 +1,21 @@
+/* General css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: auto;
+    width: 1130px;
+    background-color: #6ebdf1;
+    height: 78vh;
+    position: relative;
+}
+
+.main-container{
+    background-color: #6ebdf1;
+    height: 78vh;
+    position: relative;
+}
+
