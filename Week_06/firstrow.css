@@ -34,23 +34,24 @@
 .play{
     display: flex;
     background-color: white;
-    margin: 40px 20px 20px 20px; 
+    margin: 0px 20px 20px 20px; 
     align-items: center;
     justify-content: center;
     width: 40%;
-    height: 0%; 
+    height: 150px; 
 }
 .play1{
     background-color: #6ebdf1;
     width: 50px;
     height: 50px;
+    padding: 0px 30px;
     border-radius: 50%;
 }
 .play2{
     background-color: white;
     position: absolute;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    width: 40px;
+    width: 20px;
     height: 24px;
     transform: rotate(90deg);
 }
